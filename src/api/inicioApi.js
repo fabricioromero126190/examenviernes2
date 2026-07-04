@@ -85,7 +85,7 @@ export async function getPublicaciones() {
                 { url:assetUrl( "/img/inicio16.jpg"), alt: "Foto 8 de la limpieza en las lagunas del Kari Kari" },
               ],
             },
-            { tipo: "video", src: "/video/video1.mp4", alt: "Video de la limpieza en las lagunas del Kari Kari" },
+            { tipo: "video", src: assetUrl("/video/video1.mp4"), alt: "Video de la limpieza en las lagunas del Kari Kari" },
           ],
         },
       {
@@ -95,8 +95,8 @@ export async function getPublicaciones() {
         texto:
           "Te recuerda: las conexiones clandestinas son un delito que perjudica a todos, contaminan el agua potable y no permiten que más familias accedan al servicio. Si conoces algún vecino con conexión ilegal o clandestina, ¡denuncia!",
         medios: [
-          { tipo: "video", src: "/video/video5.mp4", alt: "Video sobre conexiones clandestinas 1" },
-          { tipo: "video", src: "/video/video2.mp4", alt: "Video sobre conexiones clandestinas 2" },
+          { tipo: "video", src: assetUrl("/video/video5.mp4"), alt: "Video sobre conexiones clandestinas 1" },
+          { tipo: "video", src:assetUrl( "/video/video2.mp4"), alt: "Video sobre conexiones clandestinas 2" },
         ],
       },
       {
@@ -105,8 +105,8 @@ export async function getPublicaciones() {
         subtitulo: "Distribución de agua mediante cisternas",
         texto: "Estamos trabajando día a día para brindar un mejor servicio.",
         medios: [
-          { tipo: "video", src: "/video/video3.mp4", alt: "Video de distribución de agua mediante cisternas 1" },
-          { tipo: "video", src: "/video/video4.mp4", alt: "Video de distribución de agua mediante cisternas 2" },
+          { tipo: "video", src:assetUrl( "/video/video3.mp4"), alt: "Video de distribución de agua mediante cisternas 1" },
+          { tipo: "video", src:assetUrl( "/video/video4.mp4"), alt: "Video de distribución de agua mediante cisternas 2" },
         ],
       },
     ];
