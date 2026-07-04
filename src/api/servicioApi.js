@@ -13,7 +13,7 @@ export async function getRequisitosOdeco() {
     return await apiFetch("/institucion/requisitos-odeco");
   } catch {
     return {
-      fondoMascota: "/img/fondo.png", 
+      fondoMascota: assetUrl("/img/fondo.png"), 
       secciones: [
         {
           id: 1,
