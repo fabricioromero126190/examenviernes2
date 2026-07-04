@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { getContactoCompleto } from "../api/contactosApi";
 import "../styles/Contactos.css";
+import { assetUrl } from "../utils/assetUrl";
 
 export default function ContactosPage() {
   const [contacto, setContacto] = useState(null);
@@ -41,7 +42,7 @@ export default function ContactosPage() {
         <section className="contactos">
           <div className="contactos__grid">
             <div className="contactos__block">
-              <img src="/img/icono-telefono.png" alt="Teléfono" className="contactos__icon" />
+              <img src={assetUrl("/img/icono-telefono.png")} alt="Teléfono" className="contactos__icon" />
               <div className="contactos__info">
                 <h2 className="contactos__title">NÚMEROS DE CONTACTO</h2>
                 <p className="contactos__subtitle">EMERGENCIAS</p>
@@ -56,7 +57,7 @@ export default function ContactosPage() {
             </div>
 
             <div className="contactos__block">
-              <img src="/img/icono-ubicacion.png" alt="Ubicación" className="contactos__icon" />
+              <img src={assetUrl("/img/icono-ubicacion.png")} alt="Ubicación" className="contactos__icon" />
               <div className="contactos__info">
                 <h2 className="contactos__title">DIRECCIÓN CENTRAL</h2>
                 <p className="contactos__line">{contacto.direccionCentral}</p>
