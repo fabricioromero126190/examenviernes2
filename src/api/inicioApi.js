@@ -1,4 +1,4 @@
-
+import { assetUrl } from "../utils/assetUrl";
 const BASE_URL = import.meta.env?.VITE_API_URL || "https://api.aapospotosi.com";
 
 async function apiFetch(endpoint) {
