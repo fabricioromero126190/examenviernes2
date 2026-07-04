@@ -52,7 +52,7 @@ export async function getGaleriaHistoria() {
       { id: 3, url:assetUrl( "/img/foto6.jpg"), alt: "Cuadrilla en labores de mantenimiento de red" },
       { id: 4, url:assetUrl ("/img/foto7.jpg"), alt: "Personal de AAPOS en campo" },
       { id: 5, url:assetUrl( "/img/foto8.jpg"), alt: "Obra de tendido de red de agua potable" },
-      { id: 6, url: assetUrl("/img/foto9.jpg"), alt: "Visita técnica a zona de trabajo" },
+      { id: 6, url:assetUrl("/img/foto9.jpg"), alt: "Visita técnica a zona de trabajo" },
       { id: 7, url:assetUrl("/img/foto10.jpg"), alt: "Entrega de conexión a familia beneficiaria" },
       { id: 8, url:assetUrl( "/img/foto11.jpg"), alt: "Equipo de AAPOS en labores de mantenimiento" },
     ];

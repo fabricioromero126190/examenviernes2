@@ -63,19 +63,19 @@ export async function getObjetivos() {
       {
         id: 2,
         tipo: "foto",
-        imagen: "/img/servicios1.jpg",
+        imagen: assetUrl("/img/servicios1.jpg"),
         texto: "Mejorar la calidad de los servicios de agua potable y alcantarillado sanitario.",
       },
       {
         id: 3,
         tipo: "foto",
-        imagen: "/img/servicios2.jpg",
+        imagen:assetUrl( "/img/servicios2.jpg"),
         texto: "Aumentar la cobertura de los servicios básicos a las zonas más deprimidas del municipio.",
       },
       {
         id: 4,
         tipo: "foto",
-        imagen: "/img/servicios3.jpg",
+        imagen: assetUrl("/img/servicios3.jpg"),
         texto: "Siempre velando por la seguridad de los ciudadanos",
       },
       {
@@ -87,7 +87,7 @@ export async function getObjetivos() {
       {
         id: 6,
         tipo: "foto",
-        imagen: "/img/servicios4.jpg",
+        imagen:assetUrl( "/img/servicios4.jpg"),
         texto: "Cumpliendo con la sociedad",
       },
     ];
