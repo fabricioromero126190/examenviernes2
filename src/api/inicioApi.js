@@ -1,3 +1,4 @@
+
 import { assetUrl } from "../utils/assetUrl";
 const BASE_URL = import.meta.env?.VITE_API_URL || "https://api.aapospotosi.com";
 
@@ -12,9 +13,9 @@ export async function getMosaico() {
     return await apiFetch("/institucion/mosaico");
   } catch {
     return [
-      { id: 1, url: "/img/inicio1.jpg", alt: "Fachada histórica de AAPOS" },
-      { id: 2, url: "/img/inicio2.jpg", alt: "Logo AAPOS con mascota" },
-      { id: 3, url: "/img/inicio3.jpg", alt: "Edificio central de AAPOS" },
+      { id: 1, url:assetUrl( "/img/inicio1.jpg"), alt: "Fachada histórica de AAPOS" },
+      { id: 2, url: assetUrl("/img/inicio2.jpg"), alt: "Logo AAPOS con mascota" },
+      { id: 3, url: assetUrl("/img/inicio3.jpg"), alt: "Edificio central de AAPOS" },
       
     ];
   }
@@ -74,14 +75,14 @@ export async function getPublicaciones() {
             {
               tipo: "galeria",
               imagenes: [
-                { url: "/img/inicio9.jpg", alt: "Foto 1 de la limpieza en las lagunas del Kari Kari" },
-                { url: "/img/inicio10.jpg", alt: "Foto 2 de la limpieza en las lagunas del Kari Kari" },
-                { url: "/img/inicio11.jpg", alt: "Foto 3 de la limpieza en las lagunas del Kari Kari" },
-                { url: "/img/inicio12.jpg", alt: "Foto 4 de la limpieza en las lagunas del Kari Kari" },
-                { url: "/img/inicio13.jpg", alt: "Foto 5 de la limpieza en las lagunas del Kari Kari" },
-                { url: "/img/inicio14.jpg", alt: "Foto 6 de la limpieza en las lagunas del Kari Kari" },
-                { url: "/img/inicio15.jpg", alt: "Foto 7 de la limpieza en las lagunas del Kari Kari" },
-                { url: "/img/inicio16.jpg", alt: "Foto 8 de la limpieza en las lagunas del Kari Kari" },
+                { url:assetUrl( "/img/inicio9.jpg"), alt: "Foto 1 de la limpieza en las lagunas del Kari Kari" },
+                { url:assetUrl( "/img/inicio10.jpg"), alt: "Foto 2 de la limpieza en las lagunas del Kari Kari" },
+                { url:assetUrl( "/img/inicio11.jpg"), alt: "Foto 3 de la limpieza en las lagunas del Kari Kari" },
+                { url:assetUrl( "/img/inicio12.jpg"), alt: "Foto 4 de la limpieza en las lagunas del Kari Kari" },
+                { url: assetUrl("/img/inicio13.jpg"), alt: "Foto 5 de la limpieza en las lagunas del Kari Kari" },
+                { url:assetUrl( "/img/inicio14.jpg"), alt: "Foto 6 de la limpieza en las lagunas del Kari Kari" },
+                { url:assetUrl( "/img/inicio15.jpg"), alt: "Foto 7 de la limpieza en las lagunas del Kari Kari" },
+                { url:assetUrl( "/img/inicio16.jpg"), alt: "Foto 8 de la limpieza en las lagunas del Kari Kari" },
               ],
             },
             { tipo: "video", src: "/video/video1.mp4", alt: "Video de la limpieza en las lagunas del Kari Kari" },
