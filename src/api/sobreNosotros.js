@@ -36,9 +36,9 @@ export async function getVisionMisionValores() {
         "Proporcionar servicios de agua potable y saneamiento en beneficio de los habitantes de la ciudad de Potosí, a través de una gestión eficiente, transparente y sostenible, con enfoque social.",
       valores:
         'Administración Autónoma para Obras Sanitarias se guía y se identifica con sus clientes internos y externos por los siguientes valores empresariales: "probidad y vocación de servicio, lealtad y obediencia, trabajo en equipo, puntualidad, respeto y disciplina, veracidad y transparencia, idoneidad".',
-      imagenVision: "/img/foto1.png",
-      imagenMisionGrupo: "/img/foto2.png",
-      imagenValores: "/img/foto12.jpg",
+      imagenVision:assetUrl( "/img/foto1.png"),
+      imagenMisionGrupo: assetUrl("/img/foto2.png"),
+      imagenValores: assetUrl("/img/foto12.jpg"),
     };
   }
 }

@@ -28,7 +28,7 @@ export async function getPresentacion() {
     return {
       descripcion:
         "La Administración Autónoma para Obras Sanitarias AAPOS-POTOSÍ es responsable de brindar los servicios de abastecimiento de agua potable y alcantarillado sanitario a la ciudad de Potosí.",
-      imagenMascota: "/img/inicio4.jpg",
+      imagenMascota:assetUrl( "/img/inicio4.jpg"),
     };
   }
 }
@@ -42,7 +42,7 @@ export async function getEquipo() {
       {
         id: 1,
         imagenLado: "izquierda",
-        imagen: "/img/inicio5.jpg",
+        imagen: assetUrl("/img/inicio5.jpg"),
         titulo: "Gerente General Ing. Carlos Chumacero Pacheco",
         texto:
           "Es la máxima autoridad ejecutiva, la cual está encargada de cumplir las resoluciones y determinaciones, siendo responsable de la administración de la empresa, en lo que corresponde a sus funciones y atribuciones establecidas en el estatuto orgánico, manual de funciones y demás normas conexas.",
@@ -50,7 +50,7 @@ export async function getEquipo() {
       {
         id: 2,
         imagenLado: "derecha",
-        imagen: "/img/inicio6.jpg",
+        imagen:assetUrl( "/img/inicio6.jpg"),
         titulo: "Sede del sindicato de Trabajadores de la empresa",
         texto:
           "Toda una organización a disposición de la sociedad, cumpliendo las funciones que sean asignadas a cada área de trabajo y mejorando día a día por el bien de la empresa.",
@@ -122,7 +122,7 @@ export async function getRazones() {
       {
         id: 1,
         imagenLado: "izquierda",
-        imagen: "/img/inicio7.jpg",
+        imagen: assetUrl("/img/inicio7.jpg"),
         titulo: "Trabajo profesional",
         texto:
           "Su objetivo es apoyar el fortalecimiento e incremento de la cobertura de los servicios de agua potable, alcantarillado y saneamiento que prestan los organismos operadores, de los municipios, a través de las entidades.",
@@ -130,7 +130,7 @@ export async function getRazones() {
       {
         id: 2,
         imagenLado: "derecha",
-        imagen: "/img/inicio8.jpg",
+        imagen: assetUrl("/img/inicio8.jpg"),
         titulo: "Calidad",
         texto: "Con la transparencia e inspecciones necesarias para el buen uso del agua potable.",
       },
