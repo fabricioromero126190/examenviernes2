@@ -4,6 +4,7 @@ import InicioPage from "./pages/Inicio";
 import SobreNosotrosPage from "./pages/SobreNosotros";
 import ServiciosPage from "./pages/Servicios";
 import ContactosPage from "./pages/Contactos";
+import { HashRouter, Routes, Route } from "react-router-dom";
 export default function App() {
   return (
     <BrowserRouter>
