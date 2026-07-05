@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "encabezado": "AAPOS INFORMA",
+    "subtitulo": "Acción comunal de limpieza lagunas del Kari Kari",
+    "texto": "De la mano de todos los trabajadores de AAPOS POTOSÍ, se realizó la tarea de limpieza y mantenimiento de nuestras lagunas de la cuenca del Kari Kari.",
+    "medios": [
+      {
+        "tipo": "galeria",
+        "imagenes": [
+          { "url": "/img/inicio9.jpg", "alt": "Foto 1 de la limpieza en las lagunas del Kari Kari" },
+          { "url": "/img/inicio10.jpg", "alt": "Foto 2 de la limpieza en las lagunas del Kari Kari" },
+          { "url": "/img/inicio11.jpg", "alt": "Foto 3 de la limpieza en las lagunas del Kari Kari" },
+          { "url": "/img/inicio12.jpg", "alt": "Foto 4 de la limpieza en las lagunas del Kari Kari" },
+          { "url": "/img/inicio13.jpg", "alt": "Foto 5 de la limpieza en las lagunas del Kari Kari" },
+          { "url": "/img/inicio14.jpg", "alt": "Foto 6 de la limpieza en las lagunas del Kari Kari" },
+          { "url": "/img/inicio15.jpg", "alt": "Foto 7 de la limpieza en las lagunas del Kari Kari" },
+          { "url": "/img/inicio16.jpg", "alt": "Foto 8 de la limpieza en las lagunas del Kari Kari" }
+        ]
+      },
+      { "tipo": "video", "src": "/video/video1.mp4", "alt": "Video de la limpieza en las lagunas del Kari Kari" }
+    ]
+  },
+  {
+    "id": 2,
+    "encabezado": "AAPOS POTOSÍ",
+    "subtitulo": "Denuncia las conexiones clandestinas",
+    "texto": "Te recuerda: las conexiones clandestinas son un delito que perjudica a todos, contaminan el agua potable y no permiten que más familias accedan al servicio. Si conoces algún vecino con conexión ilegal o clandestina, ¡denuncia!",
+    "medios": [
+      { "tipo": "video", "src": "/video/video5.mp4", "alt": "Video sobre conexiones clandestinas 1" },
+      { "tipo": "video", "src": "/video/video2.mp4", "alt": "Video sobre conexiones clandestinas 2" }
+    ]
+  },
+  {
+    "id": 3,
+    "encabezado": "AAPOS INFORMA",
+    "subtitulo": "Distribución de agua mediante cisternas",
+    "texto": "Estamos trabajando día a día para brindar un mejor servicio.",
+    "medios": [
+      { "tipo": "video", "src": "/video/video3.mp4", "alt": "Video de distribución de agua mediante cisternas 1" },
+      { "tipo": "video", "src": "/video/video4.mp4", "alt": "Video de distribución de agua mediante cisternas 2" }
+    ]
+  }
+]

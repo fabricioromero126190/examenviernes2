@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "imagenLado": "izquierda",
+    "imagen": "/img/inicio7.jpg",
+    "titulo": "Trabajo profesional",
+    "texto": "Su objetivo es apoyar el fortalecimiento e incremento de la cobertura de los servicios de agua potable, alcantarillado y saneamiento que prestan los organismos operadores, de los municipios, a través de las entidades."
+  },
+  {
+    "id": 2,
+    "imagenLado": "derecha",
+    "imagen": "/img/inicio8.jpg",
+    "titulo": "Calidad",
+    "texto": "Con la transparencia e inspecciones necesarias para el buen uso del agua potable."
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "imagenLado": "izquierda",
+    "imagen": "/img/inicio5.jpg",
+    "titulo": "Gerente General Ing. Carlos Chumacero Pacheco",
+    "texto": "Es la máxima autoridad ejecutiva, la cual está encargada de cumplir las resoluciones y determinaciones, siendo responsable de la administración de la empresa, en lo que corresponde a sus funciones y atribuciones establecidas en el estatuto orgánico, manual de funciones y demás normas conexas."
+  },
+  {
+    "id": 2,
+    "imagenLado": "derecha",
+    "imagen": "/img/inicio6.jpg",
+    "titulo": "Sede del sindicato de Trabajadores de la empresa",
+    "texto": "Toda una organización a disposición de la sociedad, cumpliendo las funciones que sean asignadas a cada área de trabajo y mejorando día a día por el bien de la empresa."
+  }
+]
