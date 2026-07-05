@@ -1,0 +1,5 @@
+[
+  { "id": 1, "url": "/img/inicio1.jpg", "alt": "Fachada histórica de AAPOS" },
+  { "id": 2, "url": "/img/inicio2.jpg", "alt": "Logo AAPOS con mascota" },
+  { "id": 3, "url": "/img/inicio3.jpg", "alt": "Edificio central de AAPOS" }
+]

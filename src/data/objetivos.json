@@ -1,0 +1,35 @@
+{
+  "fondoMascota": "/img/fondo.png",
+  "secciones": [
+    {
+      "id": 1,
+      "titulo": "NUEVAS CONEXIONES\nDE AGUA POTABLE Y ALCANTARRILLADO",
+      "items": [
+        "Testimonio de propiedad registrado en Derechos Reales (Folio Real)",
+        "Cédula de Identidad",
+        "Plano de lote",
+        "Trámite de Alcantarillado"
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "CAMBIO DE NOMBRE",
+      "items": [
+        "Solicitud de cambio de nombre vía gerencia, adjunte todos los documentos requeridos.",
+        "Testimonio de propiedad registrados en derechos reales (folio real)",
+        "Cédula de identidad",
+        "Plano de lote",
+        "Última factura de agua"
+      ]
+    },
+    {
+      "id": 3,
+      "titulo": "NOTA",
+      "items": [
+        "Presente fotocopias, en caso de que sea necesario, solicite originales.",
+        "La documentación solicitada debe ser entregada en las oficinas de odeco.",
+        "Todo trámite realizado debe ser de manera personal."
+      ]
+    }
+  ]
+}
