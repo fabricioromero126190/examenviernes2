@@ -1,0 +1,33 @@
+.navbar {
+  background: var(--aapos-white);
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.navbar__inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  padding: 14px 20px;
+}
+
+.navbar__link {
+  text-decoration: none;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--aapos-dark);
+  padding: 10px 16px;
+  border-radius: 2px;
+  transition: background 0.15s ease;
+}
+
+.navbar__link:hover {
+  background: #f2f2f2;
+}
+
+.navbar__link--active {
+  background: #e9e9e9;
+}

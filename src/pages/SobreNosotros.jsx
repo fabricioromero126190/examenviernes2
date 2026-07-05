@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Carousel from "../components/Carousel";
-import { getResenaHistorica, getVisionMisionValores, getGaleriaHistoria } from "../api/sobreNosotrosApi";
+import { getResenaHistorica, getVisionMisionValores, getGaleriaHistoria } from "../api/sobreNosotros";
 import "../styles/SobreNosotros.css";
 
 export default function SobreNosotrosPage() {
